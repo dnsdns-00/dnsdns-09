@@ -41,8 +41,8 @@ float arc(vec2 pt, vec2 center, float radius, float percent){
 
 void main (void)
 {
-  vec4 bgColor = vec4(1.0, 0.75, 0.8, 1.0); // Pink
-  vec4 arcColor = vec4(0.5, 0.0, 0.5, 1.0); // Purple
+  vec4 bgColor = vec4(135, 0, 81, 0.8); // Dark Purple
+  vec4 arcColor = vec4(255, 255, 161, 0.8); // Yellow
   vec2 center = vec2(0.5);
   vec4 color = vec4(0.0);
   color += circle(vUv, center, 0.5) * bgColor;
